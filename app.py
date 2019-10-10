@@ -20,10 +20,6 @@ class LoadImage(db.Model):
 def index():
   return render_template('index.html')
 
-@app.route('/processing', methods=['POST', 'GET'])
-def processing():
-  return render_template('processing.html')
-
 @app.route('/send_pic', methods=['POST'])
 def getImg():
   if request.method == 'POST':

@@ -66,18 +66,3 @@ $(function() {
     });
   });
 });
-
-
-// function getImage() {
-//   const canvas = document.querySelector("#canvas");
-//   var imgURL = canvas.toDataURL();
-//   console.log(imgURL);
-//   $.ajax({
-//     type: 'POST',
-//     url: '/send_pic',
-//     data: imgURL,
-//     success: function (data) {
-//     }
-//   });
-  
-// }
