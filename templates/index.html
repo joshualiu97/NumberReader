@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Number Reader</title>
+<script src="../static/js/canvas.js"></script>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 class="title">Number Reader</h1>
+    <canvas id="canvas" width="28" height="28"></canvas>
+    <ul class="main_buttons">
+      <li id="clearCanvas">Clear</li>
+      <li id="upload">Predict</li>
+    </ul>
+    <div class="disp_results">
+      The predicted number is:
+    </div>
+    <div id="result"></div>
+</div>
+{% endblock %}
